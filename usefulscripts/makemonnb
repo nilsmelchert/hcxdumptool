@@ -15,7 +15,7 @@ else
 fi
 
 echo "deactivating NetworkManager and wpa_supplicant"
-sudo systemctl stop NetworkManager.service
+# sudo systemctl stop NetworkManager.service
 sudo systemctl stop wpa_supplicant.service
 
 echo "activating monitor mode on $WLANDEV"
